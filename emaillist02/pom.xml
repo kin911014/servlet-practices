@@ -14,11 +14,11 @@
 	</properties>
 
 	<dependencies>
-		<!-- mysql JDBC Driver -->
+		<!-- mariaDB JDBC Driver -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.48</version>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<version>2.4.4</version>
 		</dependency>
 
 		<!-- jstl -->
@@ -43,7 +43,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-
+		<finalName>emaillist02</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
