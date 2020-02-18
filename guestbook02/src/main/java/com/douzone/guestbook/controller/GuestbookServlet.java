@@ -27,7 +27,6 @@ public class GuestbookServlet extends HttpServlet {
 			String contents = request.getParameter("message");
 			String password = request.getParameter("password");
 			
-			
 			GuestbookVo vo = new GuestbookVo();
 			vo.setName(name);
 			vo.setContents(contents);
