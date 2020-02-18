@@ -45,7 +45,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-
+		<finalName>emaillist01</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
