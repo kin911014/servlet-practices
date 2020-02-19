@@ -16,7 +16,6 @@
 	</properties>
 
 	<dependencies>
-		<!-- mysql JDBC Driver -->
 		<!-- mariaDB JDBC Driver -->
 		<dependency>
 			<groupId>org.mariadb.jdbc</groupId>
